@@ -1,0 +1,63 @@
+I am a beginner in ASP.NET Core and Razor Pages, and I want to build a complete Book Store web application project step-by-step.
+
+Please generate a full working project using:
+- ASP.NET Core Razor Pages
+- Entity Framework Core (Code First with Migrations)
+- SQL Server as database
+
+Project Requirements:
+
+1. Core Features:
+- Book List Page (Display all books)
+- Book Details Page
+- Add Book (Admin)
+- Edit Book
+- Delete Book
+
+2. Database:
+- Create a Book model with fields: Id, Title, Author, Price, Description, ImageUrl, Category
+- Use DbContext and EF Core
+- Include migrations and database creation steps
+
+3. UI:
+- Use Bootstrap for simple and clean UI
+- Navigation bar with Home, Books, Cart
+
+4. Advanced Features:
+- Search books by title
+- Filter by category
+- Pagination for book listing
+
+5. Cart System:
+- Add to Cart
+- Remove from Cart
+- Update quantity
+- Show total price
+
+6. Payment Gateway Integration:
+- Integrate a basic payment system (like Stripe or Razorpay)
+- Create a Checkout page
+- Handle payment success and failure
+- Save order details in database after successful payment
+
+7. Order System:
+- Order table with OrderId, User, TotalAmount, Date
+- Order Items table (BookId, Quantity)
+
+8. Authentication (Optional but preferred):
+- User registration and login
+- Only admin can manage books
+
+9. Explain Each Step:
+- Project setup
+- Folder structure
+- Razor Pages logic
+- EF Core setup
+- Payment integration step-by-step
+
+10. Output:
+- Provide clean, well-commented code
+- Explain important parts in simple terms
+- Give step-by-step instructions to run the project
+
+I want the explanation simple, practical, and beginner-friendly, but also follow best practices used in real-world projects.
