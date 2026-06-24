@@ -1,0 +1,121 @@
+I am a beginner in ASP.NET Core (Razor Pages) and want to build a complete, real-world Book Store web application step-by-step.
+
+Please generate a FULL WORKING PROJECT with clean structure, best practices, and beginner-friendly explanations.
+
+========================
+🔹 TECH STACK
+========================
+- ASP.NET Core Razor Pages (.NET 7 or latest)
+- Entity Framework Core (Code First with Migrations)
+- SQL Server
+- Bootstrap (for UI)
+
+========================
+🔹 CORE FEATURES
+========================
+1. Book Management:
+   - View all books (List Page with pagination)
+   - View book details
+   - Add new book (Admin only)
+   - Edit book
+   - Delete book
+
+2. Search & Filter:
+   - Search books by title
+   - Filter by category
+
+========================
+🔹 DATABASE DESIGN
+========================
+Create models with relationships:
+- Book (Id, Title, Author, Price, Description, ImageUrl, CategoryId)
+- Category (Id, Name)
+- Order (OrderId, UserId, TotalAmount, OrderDate, Status)
+- OrderItem (Id, OrderId, BookId, Quantity, Price)
+- ApplicationUser (Extend IdentityUser)
+
+Explain:
+- DbContext setup
+- Migrations & database creation
+
+========================
+🔹 AUTHENTICATION & ROLES
+========================
+- Use ASP.NET Core Identity
+- Registration & Login system
+- Role-based access:
+  - Admin → Manage books
+  - User → Browse & order
+
+========================
+🔹 CART SYSTEM
+========================
+- Add to cart
+- Remove from cart
+- Update quantity
+- Session-based or database cart
+- Display total price
+
+========================
+🔹 PAYMENT INTEGRATION
+========================
+Integrate a demo payment gateway (Stripe or Razorpay):
+- Checkout page
+- Handle success & failure
+- Save order after successful payment
+
+========================
+🔹 ADMIN PANEL
+========================
+- Admin Dashboard
+- Manage Books
+- Manage Categories
+- View Orders
+
+========================
+🔹 UI REQUIREMENTS
+========================
+- Use Bootstrap
+- Responsive layout
+- Navbar (Home, Books, Cart, Admin, Login/Register)
+
+========================
+🔹 PROJECT STRUCTURE
+========================
+Explain clearly:
+- Pages/
+- Models/
+- Data/
+- Services/
+- wwwroot/
+
+========================
+🔹 STEP-BY-STEP GUIDANCE
+========================
+Explain everything step-by-step:
+1. Project creation
+2. Installing packages
+3. Creating models
+4. DbContext setup
+5. Migrations
+6. Razor Pages logic
+7. Cart implementation
+8. Payment integration
+9. Authentication setup
+
+========================
+🔹 OUTPUT FORMAT
+========================
+- Provide complete working code (well-commented)
+- Use simple beginner-friendly language
+- Explain each important concept in short
+- Include commands (CLI & Package Manager)
+- Include sample test data (seed data)
+
+========================
+🔹 BONUS (if possible)
+========================
+- Product image upload
+- Order history page
+- Basic error handling
+- Clean architecture suggestion
